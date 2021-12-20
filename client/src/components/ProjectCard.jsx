@@ -1,7 +1,5 @@
 import livemusicunderground from "../assets/images/livemusicunderground.png";
 
-
-
 const ProjectCard = (props) => {
   return (
     <>

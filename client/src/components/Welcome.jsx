@@ -3,10 +3,6 @@ import "../assets/css/welcome.css";
 import devlogo from "../assets/images/devlogo.png";
 
 const Welcome = () => {
-  const textRotate = (el, toRotate, period) => {
-
-  }
-
   return (
     <>
       <div className="welcome-container">

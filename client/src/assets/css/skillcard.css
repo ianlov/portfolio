@@ -1,0 +1,21 @@
+.skill-card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #2B2224;
+  width: 80px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.skill-card > i {
+  font-size: 50px;
+  color: white;
+}
+
+.skill-card > p {
+  color: white;
+  margin: 0;
+}

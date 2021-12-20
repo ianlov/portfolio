@@ -1,0 +1,20 @@
+footer {
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > a {
+  margin: auto 5px;
+}
+
+footer > a > img {
+  height: 25px;
+  width: auto;
+}
+
+.linkedin {
+  opacity: 0.65;
+}
