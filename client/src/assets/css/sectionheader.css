@@ -1,0 +1,9 @@
+.section-header {
+  width: fit-content;
+  padding: 20px 40px;
+  background-color: black;
+}
+
+.section-header > h1 {
+  color: white;
+}

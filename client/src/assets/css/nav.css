@@ -1,0 +1,11 @@
+header {
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  position: sticky;
+}
+
+.page-links {
+  display: flex;
+  flex-flow: row nowrap;
+}

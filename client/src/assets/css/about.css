@@ -1,0 +1,54 @@
+.about {
+  background-color: #D9CFC1;
+  padding: 30px 0px;
+}
+
+.about__window {
+  background-color: white;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.about__window__header {
+  background-color: #C4C4C4;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.about__window__header > div {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.about__window__body {
+  padding: 30px 30px;
+}
+
+.about__window__body > p > img {
+  width: 50%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
