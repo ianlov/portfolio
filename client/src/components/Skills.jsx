@@ -16,7 +16,6 @@ const Skills = () => {
           <SkillCard class={"devicon-git-plain"} name={"Git"} />
           <SkillCard class={"devicon-nodejs-plain"} name={"node.js"} />
           <SkillCard class={"devicon-mongodb-plain"} name={"MongoDB"} />
-          <SkillCard class={"devicon-javascript-plain"} name={"JavaScript"} />
         </div>
       </div>
     </>
