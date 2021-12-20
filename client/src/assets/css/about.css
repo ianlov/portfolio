@@ -4,8 +4,9 @@
 }
 
 .about__window {
-  background-color: white;
-  width: 80%;
+  background-color: #EEEEEF;
+  width: 90%;
+  max-width: 1000px;
   height: fit-content;
   display: flex;
   flex-flow: column nowrap;
@@ -44,11 +45,25 @@
 }
 
 .about__window__body {
-  padding: 30px 30px;
+  padding: 10px 30px;
+}
+
+.about__window__body > p {
+  font-size: 18px;
 }
 
 .about__window__body > p > img {
   width: 50%;
+  max-width: 400px;
   float: left;
   margin: 0px 20px 0px 0px;
+  box-shadow: 1px 1px 5px black;
+}
+
+@media screen and (max-width: 650px){
+  .about__window__body > p > img {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 10px;
+  }
 }

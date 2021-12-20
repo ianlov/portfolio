@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import Splash from "../screens/Splash.jsx";
-import Contact from "../screens/Contact.jsx.js.js";
+import Contact from "../screens/Contact.jsx";
 
 const Container = () => {
   return (
