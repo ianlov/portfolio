@@ -12,6 +12,12 @@ header {
 header > a {
   color: black;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+header > a:hover {
+  font-weight: bolder;
+  font-size: 14.6px;
 }
 
 #contact-link {

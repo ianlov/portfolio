@@ -6,7 +6,7 @@ import SkillCard from "./SkillCard.jsx";
 const Skills = () => {
   return (
     <>
-      <div className="skills" >
+      <div className="skills" id="skills" >
         <SectionHeader section={"Skills"} />
         <div className="skills-container" >
           <SkillCard class={"devicon-html5-plain"} name={"html5"} />

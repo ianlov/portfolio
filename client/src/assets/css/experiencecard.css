@@ -1,0 +1,21 @@
+.experience-card {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  padding: 15px;
+  margin: 10px auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.experience-card__left > img {
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.experience-card__right > h1 {
+  padding: 0;
+  margin: 0;
+}

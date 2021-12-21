@@ -1,5 +1,7 @@
 import "../assets/css/contact.css";
 
+import { Link } from "react-router-dom";
+
 import ContactForm from "../components/ContactForm.jsx";
 import githublogo from "../assets/images/githublogo.png";
 import linkedin from "../assets/images/linkedin.png";
@@ -9,7 +11,6 @@ const Contact = () => {
     <>
       <div className="contact" >
         <div className="contact__info" >
-          <h3>Ian Lovice</h3>
           <ul>
             <li>
               <a href="https://github.com/ianlov" >
@@ -24,6 +25,9 @@ const Contact = () => {
           </ul>
         </div>
         <ContactForm />
+        <Link to="/" >
+          <button>Go Back</button>
+        </Link>
       </div>
     </>
   )
