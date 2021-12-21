@@ -1,0 +1,11 @@
+.project-card {
+  height: 350px;
+  width: 350px;
+  margin: 30px 30px;
+  padding: 10px 10px;
+  background-color: white;
+}
+
+.project-card > img {
+  width: 100%;
+}

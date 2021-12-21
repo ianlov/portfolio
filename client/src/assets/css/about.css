@@ -12,6 +12,7 @@
   flex-flow: column nowrap;
   margin: 30px auto;
   border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
 }
 
 .about__window__header {
@@ -57,7 +58,6 @@
   max-width: 400px;
   float: left;
   margin: 0px 20px 0px 0px;
-  box-shadow: 1px 1px 5px black;
 }
 
 @media screen and (max-width: 650px){

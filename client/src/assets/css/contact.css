@@ -1,0 +1,26 @@
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #d4f5f5;
+  height: 100vh;
+}
+
+.contact__info > h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul > li {
+  margin: 10px;
+  display: inline;
+}
+
+.image-link {
+  height: 30px;
+}

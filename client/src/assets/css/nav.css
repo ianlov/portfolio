@@ -13,3 +13,9 @@ header > a {
   color: black;
   text-decoration: none;
 }
+
+#contact-link {
+  background-color: #d4f5f5;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
