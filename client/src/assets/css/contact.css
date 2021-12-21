@@ -1,6 +1,6 @@
 .contact {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: space-evenly;
   background-color: #d4f5f5;
@@ -9,6 +9,11 @@
 
 .contact__info > h3 {
   text-align: center;
+}
+
+.contact > a {
+  text-decoration: none;
+  color: black;
 }
 
 ul {

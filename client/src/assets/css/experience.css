@@ -1,3 +1,7 @@
 .experience {
   padding: 30px 0px;
 }
+
+.experience__container {
+  margin: 30px;
+}

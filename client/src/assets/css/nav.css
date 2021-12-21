@@ -7,6 +7,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #8C9A9E;
+  z-index: 1000;
 }
 
 header > a {
@@ -15,9 +16,14 @@ header > a {
   transition: 0.5s;
 }
 
-header > a:hover {
-  font-weight: bolder;
-  font-size: 14.6px;
+.hash {
+  font-family: monospace;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.hash:hover {
+  font-weight: bold;
 }
 
 #contact-link {

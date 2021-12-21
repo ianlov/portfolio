@@ -2,9 +2,11 @@ import "../assets/css/projects.css";
 
 import SectionHeader from "./SectionHeader.jsx";
 import ProjectCard from "./ProjectCard.jsx";
-import projectData from "../assets/projectData.js";
+import projectData from "../assets/data/projectData.js";
 
-// import frankslist from "../assets/images/frankslist.png";
+import livemusicunderground from "../assets/images/livemusicunderground.png";
+import frankslist from "../assets/images/frankslist.png";
+import wikiroll from "../assets/images/wikiroll.png";
 
 const Projects = () => {
   return (
@@ -12,9 +14,9 @@ const Projects = () => {
       <div className="projects" id="projects" >
         <SectionHeader section={"Projects"} />
         <div className="projects-container" >
-          {projectData.map( (project, idx) => (
-            <ProjectCard project={project} key={idx} />
-          ))}
+          <ProjectCard project={projectData[0]} src={livemusicunderground} />
+          <ProjectCard project={projectData[1]} src={frankslist} />
+          <ProjectCard project={projectData[2]} src={wikiroll} />
         </div>
       </div>
     </>

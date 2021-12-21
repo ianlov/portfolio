@@ -7,10 +7,10 @@ const Nav = () => {
   return (
     <>
       <header>
-        <HashLink to="/#about" ><p>About</p></HashLink>
-        <HashLink to="/#projects" ><p>Projects</p></HashLink>
-        <HashLink to="/#skills" ><p>Skills</p></HashLink>
-        <HashLink to="/#experience" ><p>Experience</p></HashLink>
+        <HashLink className="hash" to="/#about" ><p>About</p></HashLink>
+        <HashLink className="hash" to="/#projects" ><p>Projects</p></HashLink>
+        <HashLink className="hash" to="/#skills" ><p>Skills</p></HashLink>
+        <HashLink className="hash" to="/#experience" ><p>Experience</p></HashLink>
         <Link to="/contact" id="contact-link" ><p>Contact Me</p></Link>
       </header>
     </>

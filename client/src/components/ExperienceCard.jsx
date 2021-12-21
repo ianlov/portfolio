@@ -6,13 +6,13 @@ const ExperienceCard = (props) => {
     <>
       <div className="experience-card" >
         <div className="experience-card__left">
-          <img src={props.src} alt={props.company} />
+          <img src={props.src} alt={props.experience.company} />
         </div>
         <div className="experience-card__right">
-          <h1>{props.company}</h1>
-          <h2>{props.title}</h2>
-          <p>{props.time}</p>
-          <p>{props.description}</p>
+          <h1>{props.experience.company}</h1>
+          <h2>{props.experience.title}</h2>
+          <p>{props.experience.time}</p>
+          <p>{props.experience.description}</p>
         </div>
       </div>
     </>

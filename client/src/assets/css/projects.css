@@ -4,6 +4,6 @@
 
 .projects-container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
 }
