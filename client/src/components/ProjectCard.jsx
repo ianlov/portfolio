@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     <>
       <div className="project-card" >
         <img src={props.src} alt={props.project.image} />
-        <a href={`${props.github_url}`} ><h2>{props.project.title} <i class="devicon-github-original"></i></h2></a>
+        <a href={`${props.project.github_url}`} ><h2>{props.project.title} <i class="devicon-github-original"></i></h2></a>
         <p>{props.project.description}</p>
         {props.project.tech}
       </div>
