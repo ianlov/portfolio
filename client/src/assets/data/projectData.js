@@ -12,7 +12,7 @@ const projectData = [
     image: "livemusicunderground",
     github_url: "https://github.com/ianlov/live-music-underground",
     url: "https://live-music-underground.netlify.app/",
-    description: "Live Music Underground is a posting board that connects live music lovers with local artists and performers",
+    description: "Live Music Underground is a posting board that connects live music lovers with local artists and performers.",
     tech: <div className="tech" ><i class="devicon-react-original"></i><i class="devicon-nodejs-plain"></i></div>
   },
   {
