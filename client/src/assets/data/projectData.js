@@ -19,7 +19,7 @@ const projectData = [
     title: "Wikiroll",
     image: "wikiroll",
     github_url: "https://github.com/ianlov/Wikiroll",
-    url: "https://franks-list.netlify.app/",
+    url: "https://wikiroll.netlify.app/",
     description: "Wikiroll is an interactive library of Brazilian Jiu-Jitsu positions, submissions, and transitions.",
     tech: <div className="tech" ><i class="devicon-react-original"></i><i class="devicon-nodejs-plain"></i><i class="devicon-ruby-plain"></i><i class="devicon-rails-plain"></i></div>
   }

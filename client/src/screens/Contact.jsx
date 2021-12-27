@@ -2,7 +2,7 @@ import "../assets/css/contact.css";
 
 import { Link } from "react-router-dom";
 
-import ContactForm from "../components/ContactForm.jsx";
+// import ContactForm from "../components/ContactForm.jsx";
 import githublogo from "../assets/images/githublogo.png";
 import linkedin from "../assets/images/linkedin.png";
 
