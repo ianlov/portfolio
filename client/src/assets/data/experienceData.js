@@ -12,7 +12,7 @@ const experienceData = [
   {
     company: "Seabrook Island Property Owner's Association",
     title: "Engineering Intern",
-    description: "While learning to use the ESRI ArcGIS software by familiarizing myself with an existing GIS database, I worked with a team to take measurements of the stormwater drainage system. I also worked on producing a clearer picture of what sea level rise will look like on Seabrook Island, combining it with systems used by the NOAA. In addition, I began work on creating a hurricane damage assessment tool."
+    description: "While learning to use the ESRI ArcGIS software by familiarizing myself with an existing GIS database, I worked with a team to take measurements of the stormwater drainage system. I also worked on producing a clearer picture of what sea level rise will look like on Seabrook Island, combining it with systems used by the NOAA. In addition, I began work on creating a hurricane-damage assessment tool."
   }
 ]
 
