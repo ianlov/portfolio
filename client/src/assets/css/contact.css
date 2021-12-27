@@ -33,3 +33,12 @@ ul > li {
 .image-link {
   height: 30px;
 }
+
+button {
+  all: unset;
+  width: fit-content;
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid black;
+  cursor: pointer;
+}

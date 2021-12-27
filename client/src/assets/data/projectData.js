@@ -1,5 +1,13 @@
 const projectData = [
   {
+    title: "S.I.W.M.W.",
+    image: "sorryiwillmisswork",
+    github_url: "https://github.com/ianlov/sorry-i-will-miss-work",
+    url: "https://ianlov.github.io/sorry-i-will-miss-work/",
+    description: "Sorry I Will Miss Work (S.I.W.M.W.) generates a work absence excuse by finding a world holiday.",
+    tech: <div className="tech" ><i class="devicon-javascript-plain"></i></div>
+  },
+  {
     title: "Live Music Underground",
     image: "livemusicunderground",
     github_url: "https://github.com/ianlov/live-music-underground",

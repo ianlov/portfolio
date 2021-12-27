@@ -4,4 +4,17 @@
 
 .experience__container {
   margin: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-link > h3 {
+  border: 2px solid black;
+  padding: 5px 5px;
 }

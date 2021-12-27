@@ -6,6 +6,7 @@ import ga from "../assets/images/ga.png";
 import stjfd from "../assets/images/stjfd.png";
 import sipoa from "../assets/images/sipoa.png";
 import experienceData from "../assets/data/experienceData.js";
+import resume from "../assets/data/resume.pdf";
 
 const Experience = () => {
   return (
@@ -27,6 +28,7 @@ const Experience = () => {
             experience={experienceData[2]}
             src={sipoa}
           />
+          <a className="resume-link" href={resume} ><h3>Full Resume</h3></a>
         </div>
       </div>
     </>

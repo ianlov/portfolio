@@ -13,6 +13,7 @@ const Projects = () => {
           <ProjectCard project={projectData[0]} />
           <ProjectCard project={projectData[1]} />
           <ProjectCard project={projectData[2]} />
+          <ProjectCard project={projectData[3]} />
         </div>
       </div>
     </>
