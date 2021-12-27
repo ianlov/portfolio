@@ -4,6 +4,7 @@
 
 .projects-container {
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px auto;
 }

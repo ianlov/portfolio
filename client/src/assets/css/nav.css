@@ -8,6 +8,7 @@ header {
   top: 0;
   background-color: #8C9A9E;
   z-index: 1000;
+  margin-top: -60px;
 }
 
 header > a {
