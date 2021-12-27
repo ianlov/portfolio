@@ -24,7 +24,10 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <ContactForm />
+        <div className="contact__name-email">
+          <h1>Ian Lovice</h1>
+          <p>ian.lovice@protonmail.com</p>
+        </div>
         <Link to="/" >
           <button>Go Back</button>
         </Link>
