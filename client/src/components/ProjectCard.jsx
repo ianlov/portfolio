@@ -2,13 +2,11 @@ import "../assets/css/projectcard.css";
 
 const ProjectCard = (props) => {
   return (
-    <>
-      <a href={`${props.project.url}`} className="project-card" >
-        <h2>{props.project.title}</h2>
-        <p>{props.project.description}</p>
-        {props.project.tech}
-      </a>
-    </>
+    <div className="project-card">
+      <a href={props.project.url}><h2>{props.project.title}</h2></a>
+      {props.project.tech}
+      <a className="tech" id="g-link" href={props.project.github_url}><i className="devicon-github-original colored"></i></a>
+    </div>
   )
 }
 

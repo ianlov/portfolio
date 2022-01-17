@@ -1,6 +1,6 @@
 const projectData = [
   {
-    title: "S.I.W.M.W.",
+    title: "SIWMW",
     image: "sorryiwillmisswork",
     github_url: "https://github.com/ianlov/sorry-i-will-miss-work",
     url: "https://ianlov.github.io/sorry-i-will-miss-work/",
@@ -8,7 +8,7 @@ const projectData = [
     tech: <div className="tech" ><i class="devicon-javascript-plain"></i></div>
   },
   {
-    title: "Live Music Underground",
+    title: "LMU",
     image: "livemusicunderground",
     github_url: "https://github.com/ianlov/live-music-underground",
     url: "https://live-music-underground.netlify.app/",
@@ -30,6 +30,14 @@ const projectData = [
     url: "https://wikiroll.netlify.app/",
     description: "Wikiroll is an interactive library of Brazilian Jiu-Jitsu positions, submissions, and transitions.",
     tech: <div className="tech" ><i class="devicon-react-original"></i><i class="devicon-nodejs-plain"></i><i class="devicon-ruby-plain"></i><i class="devicon-rails-plain"></i></div>
+  },
+  {
+    title: "Work Rest Timer",
+    image: "workresttimer",
+    github_url: "https://github.com/ianlov/work-rest-timer",
+    url: "https://work-rest-timer.netlify.app/",
+    description: "Work Rest Timer tells you when to work and when to take a break.",
+    tech: <div className="tech" ><i class="devicon-react-original"></i><i class="devicon-nodejs-plain"></i><i class="devicon-tailwindcss-plain"></i></div>
   }
 ]
 

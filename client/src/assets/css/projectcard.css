@@ -1,29 +1,46 @@
 .project-card {
-  max-width: 250px;
-  min-height: 250px;
-  margin: 15px;
-  padding: 10px 10px;
-  background-color: #d4f5f5;
-  border-radius: 10px;
-  box-shadow: 1px 1px 5px black;
-  color: black;
-  text-decoration: none;
-  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  padding: 0px 10px;
+  width: fit-content;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .project-card:hover {
-  background-color: #ffffff;
-  transition: all 0.5s ease-in-out;
+  background-color: rgb(255,255,255,0.25);
 }
 
-.porject-card > h2 {
-  font-family: monospace;
+.project-card > a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 5px;
+  margin-left: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.project-card > a:hover {
+  color: rgb(255,255,255,0.75);
+  transform: translate(0, -3px);
 }
 
 .tech {
-  font-size: 30px;
-  align-self: flex-end;
+  font-size: 25px;
+}
+
+#g-link {
+  justify-self: flex-end;
+  border: black 1px solid;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: ease-in-out 0.3s;
+}
+
+#g-link:hover {
+  background-color: rgb(255,255,255,0.75);
+  transform: translate(0, -3px)
 }

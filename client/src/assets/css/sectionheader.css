@@ -7,5 +7,6 @@
 .section-header > h1 {
   color: white;
   font-family: monospace;
+  transition: 0.2 ease-in;
 }
 
